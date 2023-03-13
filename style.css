@@ -1,0 +1,232 @@
+html,
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-page{
+    background:linear-gradient(253.22deg, #BDE7FF 1.13%, #FFFFFF 75.34%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-txt{
+    margin-left: 18px;
+}
+
+.banderogus-container{
+    background: white;
+    padding: 60px 56px;
+    align-self: center;
+}
+.banderogus-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.banderogus-greeting{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.baderogus-start-txt{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+}
+.banderogus-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.banderogus-launch{
+    padding: 12px 42px;
+    border-radius: 5px;
+    border: 0;
+    background: #FF6B0A;
+    color: white;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.banderogus-img{
+    align-self:flex-end;
+}
+
+.gus-facts{
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h5{
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 24px;
+    color: black;
+    margin: 36px 0 48px 0;
+}
+.gus-facts-txt{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+    margin: 0;
+    width: 875px;
+}
+.facts-row{
+    width: 1170px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 65px;
+}
+.gus-facts-item{
+    width: 30%;
+}
+.gus-fact-title{
+    margin-left: 20px;
+}
+.gus-fact-descr{
+  width: 280px;
+  margin-left: 20px;
+}
+
+.victory{
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-victory{
+    padding: 57px 150px;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(253.22deg, #BDE7FF 1.13%, #FFFFFF 75.34%);
+}
+
+.footer-victory p{
+    width: 860px;
+}
+
+.modal-bgd{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(63, 83, 95, 0.7);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-form-container{
+    background: white;
+    padding: 60px 92px 60px 92px;
+    position: relative;
+}
+.modal-form-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 23px 0 12px 0;
+}
+
+.modal-form-dscr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.modal-form-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal-field-name{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.modal-field-input{
+    border: 2px solid #368eeb;
+    border-radius: 5px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 4px 12px;
+}
+
+.modal-form-btn{
+    padding: 12px 42px;
+    border-radius: 5px;
+    border: 0;
+    background: #FF6B0A;
+    color: white;
+    cursor: pointer;
+    margin-top: 24px;
+}
+   
+.close-btn{
+ position: absolute;
+ right: 28px;
+ top: 28px;
+ font-size: 18px;
+ color:black;
+ cursor: pointer;
+ border: 0;
+ background: none;
+}
+.modal-dscr{
+    margin-bottom: 0;
+}
+
+.modal-active{
+    opacity: 1;
+    pointer-events: all;
+}
